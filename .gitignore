@@ -1,7 +1,10 @@
-@"
-# Python
+# Raw data
+data/raw/*.csv
+
+# Python cache / compiled files
 __pycache__/
 *.py[cod]
+*$py.class
 
 # Jupyter
 .ipynb_checkpoints/
@@ -10,18 +13,28 @@ __pycache__/
 .venv/
 venv/
 env/
+ENV/
 
 # Environment variables / secrets
 .env
 .env.*
 
-# Raw competition data
-data/raw/*.csv
+# VS Code
+.vscode/
 
-# OS / IDE
+# PyCharm
+.idea/
+
+# OS files
 .DS_Store
 Thumbs.db
 
-# VS Code local settings
-.vscode/
-"@ | Set-Content .gitignore
+# Python tooling / test caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging
+build/
+dist/
+*.egg-info/
