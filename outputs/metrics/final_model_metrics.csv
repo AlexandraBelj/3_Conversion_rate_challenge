@@ -1,0 +1,2 @@
+model,C,class_weight,threshold,oof_f1,internal_test_f1,internal_test_precision,internal_test_recall,true_negatives,false_positives,false_negatives,true_positives,final_training_rows,competition_rows,competition_predicted_conversions,competition_predicted_conversion_rate
+Logistic Regression,10.0,None,0.43,0.7712,0.764,0.8273,0.7097,54808,272,533,1303,284578,31620,885,0.027988614800759013
