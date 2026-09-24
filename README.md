@@ -106,8 +106,6 @@ The relatively small difference between out-of-fold and internal-test F1 suggest
 
 The final Logistic Regression coefficients highlight the variables most strongly associated with predicted conversion.
 
-![Final Logistic Regression coefficients](outputs/figures/final_model_coefficients.png)
-
 The strongest predictive associations include:
 
 - higher `total_pages_visited`, associated with higher conversion probability;
